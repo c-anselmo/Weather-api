@@ -1,0 +1,68 @@
+.card{
+    background-color: rgba(0, 0, 0, 0.631);
+    width: 500px;
+    backdrop-filter: blur(120px) saturate(100%);
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+}
+
+p, h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 30px;
+    font-size: 24px;
+    border-radius: 40px;
+    border: none;
+    min-width: 150px;
+    user-select: none;
+    outline: none;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.icon-lupa{
+    width: 30px;
+}
+
+.searchbar{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 40px;
+    width: 250px;
+    padding: 15px;
+}
