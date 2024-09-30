@@ -8,7 +8,7 @@ import rain from "../assets/rain.gif";
 import clouds from "../assets/cloud.gif";
 import snowy from "../assets/snow.gif";
 
-function Teste() {
+function Card() {
     const [info, setInfo] = useState(null);
     const [cidade, setCidade] = useState('');
     const [horaLocal, setHoraLocal] = useState('');
