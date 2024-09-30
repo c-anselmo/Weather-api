@@ -138,4 +138,4 @@ function Teste() {
     );
 }
 
-export default Teste;
+export default Card;
